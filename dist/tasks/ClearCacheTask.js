@@ -15,8 +15,6 @@ export const ClearCacheTask = {
         console.log('Clearing cache...');
         // Clear stored task answers
         taskManager.clearTaskAnswers();
-        // Simulate cache clearing
-        await new Promise(resolve => setTimeout(resolve, 1000));
         console.log('Cache cleared successfully');
     }
 };
