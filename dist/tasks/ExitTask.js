@@ -11,7 +11,7 @@
  */
 export const ExitTask = {
     id: 'exit',
-    name: 'Exit Program',
+    name: 'Exit 👋',
     description: 'Exit the application',
     weight: 100,
     chain: false,

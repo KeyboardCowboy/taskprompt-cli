@@ -1,4 +1,4 @@
-import { TaskManager } from '../dist/core/TaskManager.js';
+import { TaskManager } from '@keyboardcowboy/taskprompt';
 import { tasks } from './src/tasks/index.js';
 /**
  * Example Application

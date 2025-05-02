@@ -1,2 +1,1 @@
-export { ExitTask } from './ExitTask.js';
-export { ClearCacheTask } from './ClearCacheTask.js';
+export declare const systemTasks: import("../index.js").Task[];

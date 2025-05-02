@@ -14,7 +14,7 @@ import { TaskManager } from '../core/TaskManager.js';
  */
 export const ExitTask: Task = {
     id: 'exit',
-    name: 'Exit Program',
+    name: 'Exit 👋',
     description: 'Exit the application',
     weight: 100,
     chain: false,

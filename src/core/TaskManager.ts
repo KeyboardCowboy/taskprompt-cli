@@ -1,6 +1,6 @@
 import { Task } from './Task.js';
 import inquirer, { QuestionCollection, Question } from 'inquirer';
-import { ExitTask, ClearCacheTask } from '../tasks/index.js';
+import { systemTasks } from '../tasks/index.js';
 
 /**
  * TaskManager
@@ -19,8 +19,7 @@ export class TaskManager {
 
     constructor() {
         // Register system tasks
-        this.registerTask(ExitTask);
-        this.registerTask(ClearCacheTask);
+        this.registerTasks(systemTasks);
     }
 
     /**
@@ -168,7 +167,7 @@ export class TaskManager {
                     name: 'taskId',
                     message: 'Select a task to execute:',
                     choices: tasks.map(task => ({
-                        name: `${task.name} - ${task.description}`,
+                        name: task.name,
                         value: task.id
                     }))
                 }

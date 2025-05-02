@@ -9,7 +9,7 @@ export const ClearCacheTask = {
     id: 'clear-cache',
     name: 'Clear Cache',
     description: 'Clears the application cache',
-    weight: 99,
+    weight: 80,
     chain: true,
     execute: async (taskManager, answers) => {
         console.log('Clearing cache...');
