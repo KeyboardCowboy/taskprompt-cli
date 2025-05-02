@@ -21,6 +21,11 @@ export declare class TaskManager {
      */
     registerTask(task: Task): void;
     /**
+     * Register multiple tasks with the TaskManager.
+     * @param tasks The tasks to register
+     */
+    registerTasks(tasks: Task[]): void;
+    /**
      * Get a task by its ID.
      * @param id The ID of the task to retrieve
      * @returns The task if found, undefined otherwise

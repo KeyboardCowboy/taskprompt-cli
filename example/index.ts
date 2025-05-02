@@ -1,5 +1,5 @@
 import { TaskManager } from '../dist/core/TaskManager.js';
-import { HelloWorldTask, UserInputTask } from './src/tasks/index.js';
+import { tasks } from './src/tasks/index.js';
 
 /**
  * Example Application
@@ -13,8 +13,7 @@ async function main() {
     const taskManager = new TaskManager();
 
     // Register our custom tasks
-    taskManager.registerTask(HelloWorldTask);
-    taskManager.registerTask(UserInputTask);
+    taskManager.registerTasks(tasks);
 
     // Start the task manager
     console.log('\nWelcome to the TaskManager Example! 🚀\n');

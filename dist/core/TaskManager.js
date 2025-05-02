@@ -31,6 +31,13 @@ export class TaskManager {
         this.tasks.set(task.id, task);
     }
     /**
+     * Register multiple tasks with the TaskManager.
+     * @param tasks The tasks to register
+     */
+    registerTasks(tasks) {
+        tasks.forEach(task => this.registerTask(task));
+    }
+    /**
      * Get a task by its ID.
      * @param id The ID of the task to retrieve
      * @returns The task if found, undefined otherwise

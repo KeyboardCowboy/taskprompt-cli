@@ -1,2 +1,7 @@
-export { HelloWorldTask } from './HelloWorldTask.js';
-export { UserInputTask } from './UserInputTask.js'; 
+import { HelloWorldTask } from './HelloWorldTask.js';
+import { UserInputTask } from './UserInputTask.js';
+
+export const tasks = [
+    HelloWorldTask,
+    UserInputTask
+]; 
