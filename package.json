@@ -1,5 +1,5 @@
 {
-  "name": "taskprompt",
+  "name": "@keyboardcowboy/taskprompt",
   "version": "1.0.0",
   "description": "A framework for managing executable tasks in applications",
   "type": "module",
