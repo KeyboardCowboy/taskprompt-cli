@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/KeyboardCowboy/taskprompt-cli/compare/v1.1.2...v1.1.3) (2025-05-02)
+
+
+### Bug Fixes
+
+* Move descriptions to a separate help task. ([57814c2](https://github.com/KeyboardCowboy/taskprompt-cli/commit/57814c26c2cd6ab06e674e3262fc75301b7d3b13))
+
 ### [1.1.2](https://github.com/KeyboardCowboy/taskprompt-cli/compare/v1.1.1...v1.1.2) (2025-05-02)
 
 ### [1.1.1](https://github.com/KeyboardCowboy/taskprompt-cli/compare/v1.1.0...v1.1.1) (2025-05-02)
