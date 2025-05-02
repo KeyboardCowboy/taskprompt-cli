@@ -16,7 +16,7 @@ export const UserInputTask: Task = {
     description: 'Demonstrates how to get user input in a task',
     weight: 0,
     chain: true,
-    dependencies: ['clear-cache'],
+    dependencies: [],
     questions: [
         {
             type: 'input',

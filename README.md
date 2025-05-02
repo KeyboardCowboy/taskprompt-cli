@@ -97,7 +97,7 @@ A task is defined with the following properties:
 
 ## User Input
 
-Tasks can collect user input using the `questions` property:
+Tasks can collect user input using the `questions` property.  We use the [Inquirer](https://www.npmjs.com/package/inquirer#objects) package for user input, so you can define questions using their docs.
 
 ```javascript
 const UserInputTask = {
@@ -190,32 +190,6 @@ Check out the `example` directory for a complete working example that demonstrat
 - Task dependencies
 - Answer persistence
 - Task ordering
-
-## Development
-
-### Git Setup
-
-1. Initialize Git repository:
-```bash
-git init
-```
-
-2. Add files to Git:
-```bash
-git add .
-```
-
-3. Make initial commit:
-```bash
-git commit -m "Initial commit"
-```
-
-The `.gitignore` file is already configured to exclude:
-- `node_modules/` and package lock files
-- Build output (`dist/`, `build/`)
-- Environment files (`.env`)
-- IDE and editor files
-- Logs and temporary files
 
 ## Contributing
 
